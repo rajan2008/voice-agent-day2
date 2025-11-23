@@ -4,6 +4,7 @@ For Day 2, your primary objective is to turn the starter agent into a coffee sho
 Primary Goal (Required)
 Persona: Turn the agent into a friendly barista for a coffee brand of your choice.
 Order state: Maintain a small order state object:
+```json
 {
   "drinkType": "string",
   "size": "string",
@@ -11,6 +12,7 @@ Order state: Maintain a small order state object:
   "extras": ["string"],
   "name": "string"
 }
+```
 Behavior:
 The agent should ask clarifying questions until all fields in the order state are filled.
 Once the order is complete, save the order to a JSON file summarizing the order.
